@@ -1,7 +1,7 @@
 # Min-Heap Processor
 `Created By: Preston Lantzer`
 
-Takes `.txt` file, with all integers on seperate lines, as input, 
+Takes `.txt` file, with all integers on separate lines, as input, 
 
 Requirements
 Java Development Kit (JDK): Ensure javac and java commands are available.
@@ -17,20 +17,20 @@ Provide the input file as an argument:
 Replace `data.txt` with the path to your input file.
 
 Input File Format
-The input file should contain one integer per line. For example:
-`12  
-45  
-7  
-89  
-123`
+The input file should contain one integer per line. For example: <br>
+`12` <br>
+`34`  <br>
+`7` <br> 
+`89` <br>
+`123`  <br>
 
 Output is a file created `MinHeap.Results.txt`
-Example Output (MinHeap.Results.txt):
-`987654  
-54321  
-12345  
-1234  
-456`  
+Example Output (MinHeap.Results.txt): <br>
+`123` <br>
+`89`  <br>
+`34` <br> 
+`12` <br>
+`7`  <br>
 
 Notes
 The program assumes the input file contains at least 10,000 integers.
