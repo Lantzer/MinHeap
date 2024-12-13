@@ -2,7 +2,7 @@ import java.io.*;
 
 public class Richest {
     /*
-    Load 10,000 into array, min_heap array, load 1 new data element in and compare to min_heap[1]
+    Load 10,000 into array (arbitrary value), min_heap array, load 1 new data element in and compare to min_heap[1]
         if new element <= min_heap[1]
             load next element and repeat
         else if new element > min_heap[1]
