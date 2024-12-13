@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class Richest {
+public class MinHeap {
     /*
     Load 10,000 into array (arbitrary value), min_heap array, load 1 new data element in and compare to min_heap[1]
         if new element <= min_heap[1]
