@@ -53,7 +53,7 @@ public class MinHeap {
             throw new IllegalArgumentException();
         }
         try{
-            FileWriter fw = new FileWriter("richest.output.txt");
+            FileWriter fw = new FileWriter("MinHeap.Results.txt");
             for (i = 1; i < 10001; i++) {
                 fw.write(A[i]+"\n");
             }
